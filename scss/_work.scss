@@ -1,0 +1,64 @@
+.work {
+  padding: 64px 8px;
+  display: flex;
+  width: 100%;
+  background-color: #333333;
+  .card {
+    width: 25%;
+    padding: 0 8px;
+    display: flex;
+    flex-direction: column;
+
+    &.card_photo {
+        transition: transform 1s;
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+    
+
+    h2 {
+      font-family: "Segoe UI", Arial, sans-serif;
+      font-weight: 400;
+      margin: 10px 0;
+      font-size: 30px;
+      color: white;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 1.5;
+      margin: 15px 0;
+
+      &.white {
+        color: white;
+      }
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .card_info {
+      width: 100%;
+      background-color: white;
+      padding: 0 16px;
+
+      h3 {
+        font-family: "Segoe UI", Arial, sans-serif;
+        font-weight: 400;
+        margin: 10px 0;
+        font-size: 24px;
+      }
+
+      h4 {
+        font-family: "Segoe UI", Arial, sans-serif;
+        font-weight: 400;
+        margin: 10px 0;
+        font-size: 20px;
+      }
+    }
+  }
+}
